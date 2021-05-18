@@ -46,7 +46,10 @@ function setup() {
 	cnv.parent("p5-container");
 
 	background("#000");	
-	text("Press UP_ARROW for major ampullate. Press DOWN_ARROW for minor ampullate", windowWidth / 2, windowHeight / 2, 30, 20);
+	fill("#fff");
+	noStroke();
+	rectMode(CENTER);
+	text("Press UP_ARROW for major ampullate. Press DOWN_ARROW for minor ampullate", windowWidth / 2, windowHeight / 2, 250, 50);
 	angleMode(DEGREES);
 
 	pos = {x: windowWidth / 2, y: windowHeight / 2};
